@@ -19,5 +19,5 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
     - name:  docker push the image
-      run : docker push ${{ secret.DOCKER_USERNAME}}//ci-cd-python-api-testing:2.0 
+      run : docker push ${{ secrets.DOCKER_USERNAME}}//ci-cd-python-api-testing:2.0 
     
