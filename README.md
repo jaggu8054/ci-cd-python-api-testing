@@ -8,6 +8,8 @@ docker build -t python-rest-api .
 docker run -p 9001:9001 python-rest-api
 ```
 
-for checking  the  endpoint use 
+ 3. for testing api   endpoint 
+```commandline
 --->  :9091/test 
+```
 port used here  is   9091  for your application running 
